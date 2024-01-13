@@ -9,7 +9,7 @@ public class MultiThreadedSingleton {
 
     private static MultiThreadedSingleton instance = null;
 
-    public MultiThreadedSingleton() {
+    private MultiThreadedSingleton() {
     }
 
     public static MultiThreadedSingleton getInstance() {

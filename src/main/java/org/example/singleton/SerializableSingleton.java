@@ -10,7 +10,7 @@ public class SerializableSingleton implements Serializable {
 
     private static SerializableSingleton instance = null;
 
-    public SerializableSingleton() {
+    private SerializableSingleton() {
     }
 
     public static SerializableSingleton getInstance() {
